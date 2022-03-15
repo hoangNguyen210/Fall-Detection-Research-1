@@ -1,15 +1,16 @@
 # Fall Detection using multimodal data
-> Falling is one of the most common dangers that the elderly usually face during their daily lives, and the potential of death after falling might increase if they live alone.  As reported by the Center for Diseases and Controls [CDC](https://www.cdc.gov/homeandrecreationalsafety/falls/adultfalls.html), the percentage of death after falling in the U.S went up 30% from 2007 to 2016 for older adults.
-> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
+> Falling is one of the most common dangers that the elderly usually face during their daily lives, and the potential of death after falling might increase if they live alone.  As reported by the Center for Diseases and Controls [CDC](https://www.cdc.gov/homeandrecreationalsafety/falls/adultfalls.html), the percentage of death after falling in the U.S went up 30% from 2007 to 2016 for older adults. In case we do not find an appropriate way to stop these rates keep growing, there may be approximately seven deaths per hour by 2030.
 
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
-* [Features](#features)
-* [Screenshots](#screenshots)
+* [Dataset description](#features)
+* 
+<!-- * [Screenshots](#screenshots)
 * [Setup](#setup)
 * [Usage](#usage)
-* [Project Status](#project-status)
+* [Project Status](#project-status) -->
+
 * [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
@@ -17,24 +18,22 @@
 
 
 ## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
+- Understanding the fearful outcomes that falling leads to, developing a fall
+detection system is essential than ever before.
+- We going to use [UP-Fall Detection](https://www.mdpi.com/1424-8220/19/9/1988) in this project and utilize both machine learning and deep learning on this data.
+- Enable to detect a precise fall detection system might significantly mitigate the risk of falling in the ederly
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
+- numpy - version 1.0
+- pandas - version 2.0
+- tensorflow - version 3.0
+- keras - version 
+- sklearn - 
 
-
-## Features
-List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
+## Dataset description
+- You can download UP-Fall Detection dataset in this [link](https://sites.google.com/up.edu.mx/har-up/) 
 
 
 ## Screenshots
