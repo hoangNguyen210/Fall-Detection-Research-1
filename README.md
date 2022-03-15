@@ -50,6 +50,7 @@ detection system is essential than ever before.
 | 11     | Laying          | 60           |
 
 ![Location of measure device](./img/location.png)
+*Location of measurement devices*
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
