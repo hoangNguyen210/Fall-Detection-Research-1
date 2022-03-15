@@ -73,10 +73,7 @@ You can read more about this dataset at this [paper](https://www.mdpi.com/1424-8
 
 | Models | Hyperparameters  | 
 | :-----:     | :-:          |
-|     XGBoost        | Falling forward using hands  <br> dcm
-sasaassasa <br>
-sasasa <br>
-saassa|
+|     XGBoost        | objective="multi:softprob", <br> learning rate = 0.5, <br> random state = 42,  <br> use label encoder = False, <br> of estimators = 100 <br>|
 | CatBoost     | Falling forward using knees          | 
 
 
