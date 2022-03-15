@@ -16,6 +16,8 @@
 * [Contact](#contact)
 <!-- * [License](#license) -->
 
+## Project Status
+Project is:  _complete_. And accepted to present at [MMM 2022 Conference](https://mmm2022.org/).
 
 ## General Information
 - Understanding the fearful outcomes that falling leads to, developing a fall
@@ -62,9 +64,22 @@ You can read more about this dataset at this [paper](https://www.mdpi.com/1424-8
 - keras - version 
 - sklearn - 
 
+## Data preprocessing :
+- Related to the sensor data, we dropped all duplicate records and removed rows and columns having missing values. We also utilized the index of sensor data to query to vision-based dataset to gurantee 2 kind of datasets have same samples, this step is significant to combine these datasets in when compiling the models.
+- In addition, we also applied Standard Scaler and scaling each by divide 255 to warrant our dataset in small range. 
 
-## Project Status
-Project is:  _complete_. And accepted to present at [MMM 2022 Conference](https://mmm2022.org/).
+## Proposed methods :
+- In term of sensor dataset, we proposed 2 machine learning algorithm that win a lot of Kaggle competitions : [XGBoost](https://xgboost.readthedocs.io/en/stable/), [CatBoost](https://catboost.ai/) and 1 deep learning technique : MLP. Here is some hyperparameters we choose for these algorithms : 
+
+| Models | Hyperparameters  | 
+| :-----:     | :-:          |
+|     XGBoost        | Falling forward using hands  
+sasaassasa
+sasasa
+saassa|
+| CatBoost     | Falling forward using knees          | 
+
+
 
 
 ## Room for Improvement
