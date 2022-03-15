@@ -73,8 +73,8 @@ You can read more about this dataset at this [paper](https://www.mdpi.com/1424-8
 
 | Models | Hyperparameters  | 
 | :-----:     | :-:          |
-|     XGBoost        | objective="multi:softprob", <br> learning rate = 0.5, <br> random state = 42,  <br> use label encoder = False, <br> of estimators = 100 <br>|
-| CatBoost     | Falling forward using knees          | 
+|     XGBoost        | objective="multi:softprob", <br> learning rate = 0.5, <br> random state = 42,  <br> use label encoder = False, <br> # of estimators = 100 <br>|
+| CatBoost     | # of estimators = 500, <br>  random seed = 42, <br> learning rate = 0.25,  <br>      max depth = 12  <br>      | 
 
 
 
