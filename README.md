@@ -49,8 +49,9 @@ detection system is essential than ever before.
 | 10     | Jumping          | 30           |
 | 11     | Laying          | 60           |
 
-![Location of measure device](./img/location.png)
-*Location of measurement devices*
+|![Location of measure device](./img/location.png)|
+|:--:| 
+| *Space* |
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
