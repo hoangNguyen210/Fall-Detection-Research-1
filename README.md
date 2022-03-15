@@ -37,17 +37,17 @@ detection system is essential than ever before.
 
 | Activity ID | Description  | Duration (s)  |
 | :-----:     | :-:          | :-:           |
-|     1        | 301          | 283           |
-| 2     | 301          | 283           |
-| Seconds     | 301          | 283           |
-| Seconds     | 301          | 283           |
-| Seconds     | 301          | 283           |
-| Seconds     | 301          | 283           |
-| Seconds     | 301          | 283           |
-| Seconds     | 301          | 283           |
-| Seconds     | 301          | 283           |
-| Seconds     | 301          | 283           |
-| Seconds     | 301          | 283           |
+|     1        | Falling forward using hands          | 10           |
+| 2     | Falling forward using knees          | 10           |
+| 3    | Falling backwards         | 10           |
+| 4     | Falling sideward          | 10           |
+| 5     | Falling sitting in empty chair         | 10           |
+| 6     | Walking          | 60           |
+| 7     | Standing         | 60           |
+| 8     | Sitting          | 60           |
+| 9     | Picking up an object         | 10           |
+| 10     | Jumping          | 30           |
+| 11     | Laying          | 60           |
 
 
 ## Screenshots
