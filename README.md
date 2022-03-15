@@ -51,7 +51,7 @@ detection system is essential than ever before.
 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](./img/location.png)
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
