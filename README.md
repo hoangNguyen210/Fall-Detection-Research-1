@@ -1,5 +1,5 @@
 # Fall Detection using multimodal data
-> Falling is one of the most common dangers that the elderly usually face during their daily lives, and the potential of death after falling might increase if they live alone.  As reported by the Center for Diseases and Controls (CDC)\footnote{\label{note1}\url{https://www.cdc.gov/homeandrecreationalsafety/falls/adultfalls.html}}, the percentage of death after falling in the U.S went up 30\% from 2007 to 2016 for older adults..
+> Falling is one of the most common dangers that the elderly usually face during their daily lives, and the potential of death after falling might increase if they live alone.  As reported by the Center for Diseases and Controls [CDC]{https://www.cdc.gov/homeandrecreationalsafety/falls/adultfalls.html}}, the percentage of death after falling in the U.S went up 30% from 2007 to 2016 for older adults.
 > Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
