@@ -51,25 +51,20 @@ detection system is essential than ever before.
 
 |![Location of measure device](./img/location.png)|
 |:--:| 
-| *Space* |
+| *Location of measurement devices* |
 <!-- If you have screenshots you'd like to share, include them here. -->
-
+You can read more about this dataset at this [paper](https://www.mdpi.com/1424-8220/19/9/1988).
 
 ## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
-
-Proceed to describe how to install / setup one's local environment / get started with the project.
-
-
-## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
-
-`write-your-code-here`
+- numpy - version 1.0
+- pandas - version 2.0
+- tensorflow - version 3.0
+- keras - version 
+- sklearn - 
 
 
 ## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
+Project is:  _complete_. And accepted to present at [MMM 2022 Conference](https://mmm2022.org/).
 
 
 ## Room for Improvement
