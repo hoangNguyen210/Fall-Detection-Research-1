@@ -81,7 +81,11 @@ You can read more about this dataset at this [paper](https://www.mdpi.com/1424-8
 |:--:| 
 | *MLP model for sensor data* |
 
+- With camera based dataset, we take advantages of CNN2D. 
 
+|![Location of measure device](./img/X1+C2.png)|
+|:--:| 
+| *CNN2D model for camera data* |
 
 ## Room for Improvement
 Include areas you believe need improvement / could be improved. Also add TODOs for future development.
