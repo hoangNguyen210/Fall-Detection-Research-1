@@ -73,9 +73,9 @@ You can read more about this dataset at this [paper](https://www.mdpi.com/1424-8
 
 | Models | Hyperparameters  | 
 | :-----:     | :-:          |
-|     XGBoost        | Falling forward using hands  
-sasaassasa
-sasasa
+|     XGBoost        | Falling forward using hands  <br> dcm
+sasaassasa <br>
+sasasa <br>
 saassa|
 | CatBoost     | Falling forward using knees          | 
 
