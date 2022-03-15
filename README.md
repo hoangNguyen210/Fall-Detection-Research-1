@@ -88,6 +88,7 @@ You can read more about this dataset at this [paper](https://www.mdpi.com/1424-8
 | *CNN2D model for camera data* |
 
 - Concatenating both kind of data :
+
 |![Location of measure device](./img/C1+c2.png)|
 |:--:| 
 | *Concatenaing CNN2D Model for Camera 1 and Camera 2* |
