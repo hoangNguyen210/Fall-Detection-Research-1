@@ -83,9 +83,19 @@ You can read more about this dataset at this [paper](https://www.mdpi.com/1424-8
 
 - With camera based dataset, we take advantages of CNN2D. 
 
-|![Location of measure device](./img/X1+C2.png)|
+|![Location of measure device](./img/CAMERA.png)|
 |:--:| 
 | *CNN2D model for camera data* |
+
+- Concatenating both kind of data :
+|![Location of measure device](./img/C1+c2.png)|
+|:--:| 
+| *Concatenaing CNN2D Model for Camera 1 and Camera 2* |
+
+|![Location of measure device](./img/S+C1+C2.png)|
+|:--:| 
+| *Combining Sensor , Camera 1 and Camera 2* |
+
 
 ## Room for Improvement
 Include areas you believe need improvement / could be improved. Also add TODOs for future development.
