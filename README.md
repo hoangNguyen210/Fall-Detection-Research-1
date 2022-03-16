@@ -108,7 +108,7 @@ You can read more about this dataset at this [paper](https://www.mdpi.com/1424-8
 
 | Data | Model  | Accuracy  | Precision | Recall | F1-Score
 | :-----:     | :-:          | :-:           |  :-:           |  :-:           |  :-:           |
-|     S        | 99.21 <br> 99.05          | 99.19 <br> 99.02 <br>           | 99.21 <br> 99.05 <br> |99.20 <br> 99.02 <br> |
+|     S        | XGBoost <br> CatBoost <br> | 99.21 <br> 99.05   <br>       | 99.19 <br> 99.02 <br>           | 99.21 <br> 99.05 <br> |99.20 <br> 99.02 <br> |
 
 
 
