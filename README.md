@@ -105,13 +105,19 @@ You can read more about this dataset at this [paper](https://www.mdpi.com/1424-8
 |---------------|-----------|-----------|--------|----------|
 | S | XGBoost <br> CatBoost <br> MLP  |  | 99.21 <br> 99.05 <br> 99.04 <br> | 99.19 <br> 99.02 <br> 99.05 <br> | 99.21 <br> 99.05 <br> 99.03 <br>| 99.20 <br> 99.02 <br> 99.03 <br> | -->
 
-
+- Performance of our proposed method for each dataset :
 | Data | Model  | Accuracy  | Precision | Recall | F1-Score |
 | :-----:     | :-:          | :-:           |  :-:           |  :-:           |  :-:           |
 |     **S**        | XGBoost <br> CatBoost <br> MLP <br> | 99.21 <br> 99.05   <br>  99.04 <br>     | 99.19 <br> 99.02 <br>  99.05 <br>         | 99.21 <br> 99.05 <br> 99.03 <br> |99.20 <br> 99.02 <br> 99.03 <br> |
 | **C1** | CNN | 99.17  | 99.24 | 99.12 | 99.16 |
 | **C2** | CNN | 99.39  | 99.40 | 99.39 | 99.40 |
+- Comparing with performance using Martinez's model :
 
+| Data | Model  | Accuracy  | Precision | Recall | F1-Score |
+| :-----:     | :-:          | :-:           |  :-:           |  :-:           |  :-:           |
+|     **S**        | RF <br> SVM <br> KNN <br> MLP | 97.46 <br> 96.96   <br>  97.24 <br> 90.21 <br>     | 97.29 <br> 96.82 <br>  97.07 <br> 98.36   | 98.46 <br> 96.96 <br> 97.24 <br> 90.21 | 97.28 <br> 96.61 <br> 97.05 <br> 88.43 <br> |
+| **C1** | CNN | 78.92 | 84.8 | 70.97 | 76.69 |
+| **C2** | CNN | 88.24  | 90.32 | 86.13 | 86.96 |
 
 
 ## Room for Improvement
