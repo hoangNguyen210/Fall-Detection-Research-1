@@ -121,8 +121,14 @@ You can read more about this dataset at this [paper](https://www.mdpi.com/1424-8
 | **C1** | CNN | 78.92 | 84.8 | 70.97 | 76.69 |
 | **C2** | CNN | 88.24  | 90.32 | 86.13 | 86.96 |
 
+- Combining dataset:
 
-## Room for Improvement
+| Data | Model  | Accuracy  | Precision | Recall | F1-Score |
+| :-----:     | :-:          | :-:           |  :-:           |  :-:           |  :-:           |
+| **C1 + C2** | Combination | 99.47 | 99.46 | 99.47 | 99.46 |
+| **C2** | Combination | 99.56  | 99.56 | 99.56 |99.55 |
+
+## Conclusion and Future Work 
 Include areas you believe need improvement / could be improved. Also add TODOs for future development.
 
 Room for improvement:
