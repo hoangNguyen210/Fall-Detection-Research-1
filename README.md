@@ -102,16 +102,9 @@ You can read more about this dataset at this [paper](https://www.mdpi.com/1424-8
 ## Result 
 
 | Data | Model  | Accuracy  | Precision | Recall | F1-Score |
+| S | XGBoost <br> CatBoost <br> MLP  |  | 99.21 <br> 99.05 <br> 99.04 | 99.19 <br> 99.02 < 99.05 | 99.21 <br> 99.05 <br> 99.03 | 99.20 <br> 99.02 <br> 99.03 |
 
 
-
-| column 1 | column 2 |
-|----------|----------|
-| value    | * value 1|
-|          | * value 2|
-|----------|----------|
-| value    | * value 1|
-|          | * value 2|
 
 
 ## Room for Improvement
