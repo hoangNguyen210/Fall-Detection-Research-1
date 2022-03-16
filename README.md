@@ -98,6 +98,22 @@ You can read more about this dataset at this [paper](https://www.mdpi.com/1424-8
 | *Combining Sensor , Camera 1 and Camera 2* |
 
 
+
+## Result 
+
+| Data | Model  | Accuracy  | Precision | Recall | F1-Score |
+
+
+
+| column 1 | column 2 |
+|----------|----------|
+| value    | * value 1|
+|          | * value 2|
+|----------|----------|
+| value    | * value 1|
+|          | * value 2|
+
+
 ## Room for Improvement
 Include areas you believe need improvement / could be improved. Also add TODOs for future development.
 
