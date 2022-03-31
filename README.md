@@ -33,7 +33,7 @@ Project is:  _complete_. And accepted to present at [MMM 2022 Conference](https:
 * [Data preprocessing](#d-p)
 * [Proposed method](#proposed-method)
 * [Result](#result)
-* [Conclusion and Furture Work](#conclusion)
+* [Conclusion and Furture Work](#cc)
 * [Room for Improvement](#room-for-improvement)
 <!-- * [Acknowledgements](#acknowledgements) -->
 * [Contact](#contact)
@@ -136,7 +136,7 @@ You can read more about this dataset at this [paper](https://www.mdpi.com/1424-8
 | **C1 + C2** | Combination | 99.47 | 99.46 | 99.47 | 99.46 |
 | **C2** | Combination | 99.56  | 99.56 | 99.56 |99.55 |
 
-<a name="#conclusion"></a>
+<a name="#cc"></a>
 ## Conclusion and Future Work 
 There are some things that I need to do with this project in the future
 Room for improvement:
