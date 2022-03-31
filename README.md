@@ -1,7 +1,14 @@
 # Fall Detection using multimodal data
+
+In this repository you'll be able to find the python programs writting in Jupyter Notebook used for the **Fall Detection using multimodal data**. 
+
+
+
+
 > Falling is one of the most common dangers that the elderly usually face during their daily lives, and the potential of death after falling might increase if they live alone.  As reported by the Center for Diseases and Controls [CDC](https://www.cdc.gov/homeandrecreationalsafety/falls/adultfalls.html), the percentage of death after falling in the U.S went up 30% from 2007 to 2016 for older adults. In case we do not find an appropriate way to stop these rates keep growing, there may be approximately seven deaths per hour by 2030.
 
 ## Table of Contents
+* [Acknowledgements](#acknowledgements)
 * [Project Status](#project-status)
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
@@ -19,10 +26,10 @@
 
 
 ## Acknowledgements
-- This project was also a part of my Seminar subject at university. 
-- This project was inspired by 2 of my teachers at HCMUS : Thao. V Ha and Binh Nguyen et. al
-- My **main responsibilites** in this project was implementing code, visualizating and writting paper.
-- Our teacher helped me correct writting mistakes and submitted the paper. 
+- This project was also a part of my Seminar subject at university.
+- This project was inspired by 2 of my teachers at HCMUS: Thao. V Ha and Binh Nguyen et. al
+- My main responsibilities in this project were implementing code, visualization, and writing a paper.
+- Our teacher helped me correct my writing mistakes and submitted the paper.
 
 
 ## Project Status
@@ -138,22 +145,21 @@ You can read more about this dataset at this [paper](https://www.mdpi.com/1424-8
 | **C2** | Combination | 99.56  | 99.56 | 99.56 |99.55 |
 
 ## Conclusion and Future Work 
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
-
+There are some things that I need to do with this project in the future
 Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
+- Solved the imbalanced issues in our dataset
+- Using more comprehensive architecture in an attempt to acquire higher performance
 
 To do:
-- Feature to be added 1
-- Feature to be added 2
+- Using the data augmentation method on minority classes
+- Utilizing a Mixture of Experts and a 3D-CNN model (in progress)
 
 
 
 
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Created by [hoangng210a@gmail.com] - feel free to contact me!
 
 
 <!-- Optional -->
