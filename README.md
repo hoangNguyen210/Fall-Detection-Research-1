@@ -35,9 +35,8 @@ Project is:  _complete_. And accepted to present at [MMM 2022 Conference](https:
 * [Result](#result)
 * [Conclusion and Furture Work](#cc)
 * [Room for Improvement](#room-for-improvement)
-<!-- * [Acknowledgements](#acknowledgements) -->
 * [Contact](#contact)
-<!-- * [License](#license) -->
+
 <a name="introduction"></a>
 ## Introduction
 > Falling is one of the most common dangers that the elderly usually face during their daily lives, and the potential of death after falling might increase if they live alone.  As reported by the Center for Diseases and Controls [CDC](https://www.cdc.gov/homeandrecreationalsafety/falls/adultfalls.html), the percentage of death after falling in the U.S went up 30% from 2007 to 2016 for older adults. In case we do not find an appropriate way to stop these rates keep growing, there may be approximately seven deaths per hour by 2030.
