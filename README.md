@@ -29,11 +29,11 @@ Project is:  _complete_. And accepted to present at [MMM 2022 Conference](https:
 <!-- * [Acknowledgements](#acknowledgements) -->
 * [Introduction](#introduction)
 * [General Info](#general-information)
-* [Dataset description](#features)
-* [Data preprocessing](#d-p)
-* [Proposed method[(#p-p)
-* [Result][(#rs)
-* [Conclusion and Furture Work](#c-f)
+* [Dataset description](#dataset-description)
+* [Data preprocessing](#data-preprocessing)
+* [Proposed method](#proposed-method)
+* [Result](#result)
+* [Conclusion and Furture Work](#conclusion)
 * [Room for Improvement](#room-for-improvement)
 <!-- * [Acknowledgements](#acknowledgements) -->
 * [Contact](#contact)
