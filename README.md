@@ -17,6 +17,14 @@
 * [Contact](#contact)
 <!-- * [License](#license) -->
 
+
+## Acknowledgements
+- This project was also a part of my Seminar subject at university. 
+- This project was inspired by 2 of my teachers at HCMUS : Thao. V Ha and Binh Nguyen et. al
+- My **main responsibilites** in this project was implementing code, visualizating and writting paper.
+- Our teacher helped me correct writting mistakes and submitted the paper. 
+
+
 ## Project Status
 Project is:  _complete_. And accepted to present at [MMM 2022 Conference](https://mmm2022.org/).
 
@@ -141,11 +149,7 @@ To do:
 - Feature to be added 2
 
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
+
 
 
 ## Contact
