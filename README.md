@@ -65,20 +65,20 @@ detection system is essential than ever before.
 | 10     | Jumping          | 30           |
 | 11     | Laying          | 60           |
 
-|![Location of measure device](./PICTURE/location.png)|
+|![Location of measure device](./img/location.png)|
 |:--:| 
 | *Location of measurement devices* |
-As you can see in the above figure, there are 3 kind of device utilizing in this experiment : sensor-based, camera-based and infrared-based devices. We will just use camera-based device in this project as many authors have achieved a prominent result with another devices. Additionally, sensor or infrared devices have its huge drawbacks as it could be annoying for elderly to wear it all day at home. 
+<!-- If you have screenshots you'd like to share, include them here. -->
 You can read more about this dataset at this [paper](https://www.mdpi.com/1424-8220/19/9/1988).
+
 <a name="d-p"></a>
 ## Data preprocessing :
-- There are 294,678 samples in this dataset. With wearable devices, there are missing values occur in the collecting process. We removed these missing values and apply the same step to the camera dataset. After that, 258,113 samples are remaining. We also resized our data from 640x480 pixels to 32x32 pixels for reducing computation. To guarantee our dataset is in the range [0,1], we scaled each pixel in our dataset by dividing it by 255. Then, we split this dataset into train, validation, and test sets with a 6:2:2 ratio.
+- Related to the sensor data, we dropped all duplicate records and removed rows and columns having missing values. We also utilized the index of sensor data to query to vision-based dataset to gurantee 2 kind of datasets have same samples, this step is significant to combine these datasets in when compiling the models.
+- In addition, we also applied Standard Scaler and scaling each by divide 255 to warrant our dataset in small range. 
+
 <a name="proposed-method"></a>
 ## Proposed methods :
-- We proposed 2 CNN-based method including Mixture of Experts (MoE) and 3D-CNN in this experiment. 
-|![MoE-1](./PICTURE/MoE_1.png)|
-|:--:| 
-| *Mixture of Expert model for C1 datasets* |
+- In term of sensor dataset, we proposed 2 machine learning algorithm that win a lot of Kaggle competitions : [XGBoost](https://xgboost.readthedocs.io/en/stable/), [CatBoost](https://catboost.ai/) and 1 deep learning technique : MLP. Here is some hyperparameters we choose for these algorithms : 
 
 | Models | Hyperparameters  | 
 | :-----:     | :-:          |
@@ -86,28 +86,25 @@ You can read more about this dataset at this [paper](https://www.mdpi.com/1424-8
 | CatBoost     | # of estimators = 500, <br>  random seed = 42, <br> learning rate = 0.25,  <br>      max depth = 12  <br>      | 
 
 
-
-|![MoE-2](./PICTURE/MoE_2.png)|
+|![Location of measure device](./img/SENSOR.png)|
 |:--:| 
 | *MLP model for sensor data* |
 
-
 - With camera based dataset, we take advantages of CNN2D. 
 
-
-|![MoE-12](./PICTURE/concat_MoE.png)|
+|![Location of measure device](./img/CAMERA.png)|
 |:--:| 
 | *CNN2D model for camera data* |
 
 - Concatenating both kind of data :
-<!-- 
+
 |![Location of measure device](./img/C1+C2.png)|
 |:--:| 
 | *Concatenaing CNN2D Model for Camera 1 and Camera 2* |
 
 |![Location of measure device](./img/S+C1+C2.png)|
 |:--:| 
-| *Combining Sensor , Camera 1 and Camera 2* | -->
+| *Combining Sensor , Camera 1 and Camera 2* |
 
 <a name="result"></a>
 ## Result 
@@ -162,3 +159,4 @@ Created by [hoangng210a@gmail.com] - feel free to contact me!
 <!-- This project is open source and available under the [... License](). -->
 
 <!-- You don't have to include all sections - just the one's relevant to your project -->
+
