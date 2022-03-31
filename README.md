@@ -30,7 +30,7 @@ Project is:  _complete_. And accepted to present at [MMM 2022 Conference](https:
 * [Introduction](#introduction)
 * [General Info](#general-information)
 * [Dataset description](#dataset-description)
-* [Data preprocessing](#data-preprocessing)
+* [Data preprocessing](#d-p)
 * [Proposed method](#proposed-method)
 * [Result](#result)
 * [Conclusion and Furture Work](#conclusion)
@@ -72,7 +72,7 @@ detection system is essential than ever before.
 <!-- If you have screenshots you'd like to share, include them here. -->
 You can read more about this dataset at this [paper](https://www.mdpi.com/1424-8220/19/9/1988).
 
-<a name="dataset-preprocessing"></a>
+<a name="d-p"></a>
 ## Data preprocessing :
 - Related to the sensor data, we dropped all duplicate records and removed rows and columns having missing values. We also utilized the index of sensor data to query to vision-based dataset to gurantee 2 kind of datasets have same samples, this step is significant to combine these datasets in when compiling the models.
 - In addition, we also applied Standard Scaler and scaling each by divide 255 to warrant our dataset in small range. 
