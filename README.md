@@ -38,16 +38,17 @@ Project is:  _complete_. And accepted to present at [MMM 2022 Conference](https:
 <!-- * [Acknowledgements](#acknowledgements) -->
 * [Contact](#contact)
 <!-- * [License](#license) -->
-
+<a name="introduction"></a>
 ## Introduction
 > Falling is one of the most common dangers that the elderly usually face during their daily lives, and the potential of death after falling might increase if they live alone.  As reported by the Center for Diseases and Controls [CDC](https://www.cdc.gov/homeandrecreationalsafety/falls/adultfalls.html), the percentage of death after falling in the U.S went up 30% from 2007 to 2016 for older adults. In case we do not find an appropriate way to stop these rates keep growing, there may be approximately seven deaths per hour by 2030.
-
+<a name="general-information"></a>
 ## General Information
 - Understanding the fearful outcomes that falling leads to, developing a fall
 detection system is essential than ever before.
 - We going to use [UP-Fall Detection](https://www.mdpi.com/1424-8220/19/9/1988) in this project and utilize both machine learning and deep learning on this data.
 - Enable to detect a precise fall detection system might significantly mitigate the risk of falling in the ederly
-
+- 
+<a name="dataset-description"></a>
 ## Dataset description
 - You can download UP-Fall Detection dataset in this [link](https://sites.google.com/up.edu.mx/har-up/) . This dataset includes over 850 GB of data from wearable sensors, ambient sensors, and vision equipment. 17 young healthy people with age ranging from 18–24 years old were invited to perform 11 different activities. Here is the summary of activities. 
 
@@ -71,10 +72,12 @@ detection system is essential than ever before.
 <!-- If you have screenshots you'd like to share, include them here. -->
 You can read more about this dataset at this [paper](https://www.mdpi.com/1424-8220/19/9/1988).
 
+<a name="dataset-preprocessing"></a>
 ## Data preprocessing :
 - Related to the sensor data, we dropped all duplicate records and removed rows and columns having missing values. We also utilized the index of sensor data to query to vision-based dataset to gurantee 2 kind of datasets have same samples, this step is significant to combine these datasets in when compiling the models.
 - In addition, we also applied Standard Scaler and scaling each by divide 255 to warrant our dataset in small range. 
 
+<a name="proposed-method"></a>
 ## Proposed methods :
 - In term of sensor dataset, we proposed 2 machine learning algorithm that win a lot of Kaggle competitions : [XGBoost](https://xgboost.readthedocs.io/en/stable/), [CatBoost](https://catboost.ai/) and 1 deep learning technique : MLP. Here is some hyperparameters we choose for these algorithms : 
 
@@ -104,6 +107,7 @@ You can read more about this dataset at this [paper](https://www.mdpi.com/1424-8
 |:--:| 
 | *Combining Sensor , Camera 1 and Camera 2* |
 
+<a name="result"></a>
 ## Result 
 <!-- | Data | Model  | Accuracy  | Precision | Recall | F1-Score |
 |---------------|-----------|-----------|--------|----------|
@@ -132,6 +136,7 @@ You can read more about this dataset at this [paper](https://www.mdpi.com/1424-8
 | **C1 + C2** | Combination | 99.47 | 99.46 | 99.47 | 99.46 |
 | **C2** | Combination | 99.56  | 99.56 | 99.56 |99.55 |
 
+<a name="#conclusion"></a>
 ## Conclusion and Future Work 
 There are some things that I need to do with this project in the future
 Room for improvement:
