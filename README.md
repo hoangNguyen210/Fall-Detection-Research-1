@@ -14,17 +14,19 @@ model.py file demonstrates our proposed models and compares with [UP's models](h
 
 ## Project Status
 Project is:  _complete_. And accepted to present at [MMM 2022 Conference](https://mmm2022.org/).
+
 [**Springer Link**](https://link.springer.com/chapter/10.1007/978-3-030-98358-1_31#citeas)
 
 
 
 
 ## System requirement 
-- numpy - version 1.0
-- pandas - version 2.0
-- tensorflow - version 3.0
-- keras - version 
-- sklearn - 
+- numpy - version 1.21.5
+- pandas - version 1.3.5
+- cv2 -version 4.1.2
+- sklearn -version 1.0.2
+- tensorflow - version 2.8.0
+- keras - version 2.8.0
 
 **Here is the short form of our paper.** (I changed the pictures of some models for my presentation at Seminar)
 ## Table of Contents
