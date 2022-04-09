@@ -17,7 +17,7 @@ Project is:  _complete_. And accepted to present at [MMM 2022 Conference](https:
 
 [**Springer Link**](https://link.springer.com/chapter/10.1007/978-3-030-98358-1_31#citeas)
 
-
+[**PDF**](https://github.com/hoangNguyen210/Fall-Detection-Research-1/blob/main/paper.pdf)
 
 
 ## System requirement 
