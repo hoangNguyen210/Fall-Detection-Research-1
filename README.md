@@ -14,7 +14,8 @@ model.py file demonstrates our proposed models and compares with [UP's models](h
 
 ## Project Status
 Project is:  _complete_. And accepted to present at [MMM 2022 Conference](https://mmm2022.org/).
-**[Link]**(https://link.springer.com/chapter/10.1007/978-3-030-98358-1_31#citeas)
+[**Springer Link**](https://link.springer.com/chapter/10.1007/978-3-030-98358-1_31#citeas)
+
 
 
 
